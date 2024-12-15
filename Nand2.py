@@ -1,7 +1,8 @@
+import telebot
+import subprocess
+import requests
+import datetime
 import os
-import asyncio
-from telegram.ext import Application, CommandHandler, CallbackContext
-from telegram.error import TelegramError
 
 TELEGRAM_BOT_TOKEN = '7576524422:AAHwgMSordjO_7GlN1-S02Q2-DhL7DvkJzU'
 ALLOWED_USER_ID = 1549748318
