@@ -1,12 +1,8 @@
-#zaher DDOS
-
+import telebot
 import subprocess
-import json
-import os
-import random
-import string
+import requests
 import datetime
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+import os
 
 # Insert your Telegram bot token here
 BOT_TOKEN = '8079342455:AAFm0OYORRpXmsLy19QrRHX5-_SiBJNaiOU'
