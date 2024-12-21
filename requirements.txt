@@ -1,5 +1,0 @@
-pyTelegramBotAPI
-pymongo
-aiohttp
-- pip install python-telegram-bot
-- pip install telebot flask aiogram pytho
