@@ -6,7 +6,6 @@ import os
 import random
 import string
 import datetime
-from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Insert your Telegram bot token here
